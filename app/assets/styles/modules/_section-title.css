@@ -13,6 +13,11 @@
 	strong{
 		font-weight: 500;
 	}
+
+	&--blue{
+		color:$mainBlue;
+	}
+
 	&__icon{
 		display: block;
 		margin-left: auto;
@@ -24,6 +29,9 @@
 			margin-right:0.5rem;
 			display: inline-block;
 			margin-bottom:0;
+			position: relative;
+			top:8px;
+			left:-8px;
 		}
 	}
 }
